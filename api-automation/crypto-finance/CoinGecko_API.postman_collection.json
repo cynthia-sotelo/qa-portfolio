@@ -1,0 +1,79 @@
+{
+  "info": {
+    "_postman_id": "6a227eb7-cbb4-45ee-b498-a4f013d4f1c3",
+    "name": "CoinGecko_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38220524"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "// Parseamos la respuesta a JSON\r",
+              "const jsonData = pm.response.json();\r",
+              "const coin = pm.environment.get(\"coin_id\"); // Obtenemos 'ethereum' dinámicamente\r",
+              "const currency = pm.environment.get(\"currency\"); // Obtenemos 'usd' dinámicamente\r",
+              "\r",
+              "// TC-API-EDGE-01: Validación de tipo de dato del precio\r",
+              "pm.test(\"El precio debe ser un número (Float) y no un String\", () => {\r",
+              "    pm.expect(jsonData[coin][currency]).to.be.a('number');\r",
+              "});\r",
+              "\r",
+              "// TC-API-EDGE-02: Respuesta con valor nulo o vacío\r",
+              "pm.test(\"El precio no debe ser null ni undefined\", () => {\r",
+              "    pm.expect(jsonData[coin][currency]).to.not.be.null;\r",
+              "    pm.expect(jsonData[coin][currency]).to.not.be.undefined;\r",
+              "});\r",
+              "\r",
+              "// TC-API-EDGE-03: Validación de latencia aceptable (< 500ms)\r",
+              "pm.test(\"El tiempo de respuesta es menor a 500ms\", () => {\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(500);\r",
+              "});\r",
+              "\r",
+              "// TC-API-EDGE-04: Latencia degradada (Warning si es > 2s)\r",
+              "pm.test(\"Verificación de degradación de red\", () => {\r",
+              "    if (pm.response.responseTime > 2000) {\r",
+              "        console.warn(\"⚠️ ALERTA: La API está tardando más de 2 segundos en responder.\");\r",
+              "    }\r",
+              "    // Verificamos que al menos no pase de un límite crítico absoluto (ej. 5 segundos)\r",
+              "    pm.expect(pm.response.responseTime).to.be.below(5000);\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{base_url}}/simple/price?ids={{coin_id}}&vs_currencies={{currency}}",
+          "host": [
+            "{{base_url}}"
+          ],
+          "path": [
+            "simple",
+            "price"
+          ],
+          "query": [
+            {
+              "key": "ids",
+              "value": "{{coin_id}}"
+            },
+            {
+              "key": "vs_currencies",
+              "value": "{{currency}}"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
