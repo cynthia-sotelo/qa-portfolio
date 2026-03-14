@@ -32,4 +32,4 @@ Ejemplos de Planes de Prueba, diseño de casos de borde (Edge Cases), diagramas 
 
 Creo firmemente que la calidad del software no se trata solo de encontrar bugs al final del ciclo, sino de diseñar estrategias sólidas desde el inicio. Me apasiona aprender continuamente y explorar cómo la Inteligencia Artificial está transformando el rol del QA hacia una posición más estratégica, arquitectónica y eficiente.
 
-📫 **¿Conectamos?** Puedes encontrarme en mi perfil de [[LinkedIn]([#](https://www.linkedin.com/in/cynthiasotelo/)).
+📫 **¿Conectamos?** Puedes encontrarme en mi perfil de [LinkedIn](https://www.linkedin.com/in/cynthiasotelo/)
