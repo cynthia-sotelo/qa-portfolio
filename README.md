@@ -1,28 +1,60 @@
-# 🚀 QA Automation Portfolio | Cynthia Sotelo
+# 👩‍💻 QA Portfolio | Cynthia Sotelo
 
-Bienvenido a mi repositorio de **Aseguramiento de Calidad (QA)**. Este espacio centraliza el desarrollo y la ejecución de estrategias de pruebas automatizadas, con un enfoque técnico en la validación de microservicios, integridad de datos y optimización del ciclo de vida del software.
-
-Mi metodología prioriza el **Shift-Left Testing**, implementando scripts de validación lógica y simulación de servicios (**Mocking**) para garantizar lanzamientos robustos y libres de errores críticos.
+Analista QA con más de un año de experiencia práctica en equipos ágiles (Scrum), especializada en diseño de casos de prueba, validación de APIs y testing funcional. Este repositorio centraliza mis proyectos de testing documentados, con foco en calidad real y trazabilidad.
 
 ---
 
-### 🛠️ Stack Tecnológico
+## 🛠️ Stack Tecnológico
 
-* **Core Testing:** Postman (v11), Newman (CLI).
-* **Automatización:** JavaScript (Sandbox de Postman), Scripts de validación lógica.
-* **Estrategias:** API Testing (REST), E2E Testing, Negative Testing, validación de esquemas JSON.
-* **Entornos y Gestión:** Mock Servers, Variables de Entorno (Environment/Global), Git/GitHub.
-* **Reportabilidad:** Newman HTML Extra Reporter.
-
----
-
-### 🎯 Objetivos del Portafolio
-El contenido de este repositorio refleja la aplicación de pruebas dinámicas sobre entornos reales y simulados, buscando siempre:
-* La **persistencia de datos** entre peticiones mediante variables dinámicas.
-* La **independencia de las pruebas** a través del uso de Mocks.
-* La **eficiencia del STLC** mediante la automatización de suites de regresión.
+| Área | Herramientas |
+|------|-------------|
+| **API Testing** | Postman (scripts JS, variables de entorno, encadenamiento de requests), Swagger |
+| **Automatización** | Cypress (JavaScript), Selenium WebDriver (Java), NUnit (C#) |
+| **Datos** | SQL (validación de integridad y persistencia en backend) |
+| **Gestión** | Jira, Git, GitHub, Scrum |
+| **Reportes** | Newman HTML Extra Reporter |
 
 ---
 
-### 📫 ¿Conectamos?
-Si quieres conocer más sobre mi perfil técnico o colaborar en proyectos de QA, puedes encontrarme en **[LinkedIn](https://linkedin.com/in/cynthiasotelo)**.
+## 📁 Proyectos
+
+### 🔹 API Testing — Postman Collections
+Colecciones de pruebas sobre APIs REST con:
+- Variables de entorno (dev/staging)
+- Scripts de validación en JavaScript
+- Encadenamiento de requests (autenticación → token → operaciones)
+- Mock servers para independencia de entorno
+- Reporte HTML generado con Newman
+
+### 🔹 [Próximamente] Automatización E2E — Cypress
+Suite de pruebas sobre aplicación web con:
+- Flujos críticos: login, registro, operaciones principales
+- GitHub Actions para ejecución automática en cada push
+
+---
+
+## 📊 Experiencia de base
+
+Durante más de un año trabajé en **No Country**, una plataforma de simulaciones laborales tech, donde participé en 8 MVPs en sectores healthtech, fintech, inmobiliaria y gaming:
+
+- Diseñé y documenté **+320 casos de prueba** (funcionales, UI/UX, integración, APIs y performance)
+- Detecté entre **5 y 8 bugs críticos por proyecto**, con resolución dentro del mismo sprint
+- Trabajé en equipos de 6–10 personas bajo metodología Scrum
+- Ejercí como **Team Leader** en varios proyectos simultáneamente
+
+---
+
+## 🎓 Formación
+
+- Tecnicatura Superior en Desarrollo de Software — IFTS N° 29 (en curso, +50% aprobado)
+- Metodología de Pruebas de Sistemas — caja negra/blanca, NUnit, Selenium, TDD/BDD
+- Máster en Testing Profesional — UTN FRBA, 2024
+- Automatización con Cypress — Instituto Web, 2024
+- Selenium + Java — Instituto Web, 2025
+
+---
+
+## 📫 Contacto
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-cynthiasotelo-blue)](https://linkedin.com/in/cynthiasotelo)
+[![Email](https://img.shields.io/badge/Email-cynthiaisotelo%40gmail.com-red)](mailto:cynthiaisotelo@gmail.com)
