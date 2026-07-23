@@ -26,10 +26,10 @@ Colecciones de pruebas sobre APIs REST con:
 - Mock servers para independencia de entorno
 - Reporte HTML generado con Newman
 
-### 🔹 [Próximamente] Automatización E2E — Cypress
-Suite de pruebas sobre aplicación web con:
-- Flujos críticos: login, registro, operaciones principales
-- GitHub Actions para ejecución automática en cada push
+### 🔹 Automatización E2E — Playwright + TypeScript
+Suite de 10 tests sobre SauceDemo con Page Object Model:
+Login (casos válidos y de error), checkout completo, ordenamiento de catálogo
+👉 Ver repositorio
 
 ---
 
