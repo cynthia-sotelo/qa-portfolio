@@ -9,7 +9,7 @@ Analista QA con más de un año de experiencia práctica en equipos ágiles (Scr
 | Área | Herramientas |
 |------|-------------|
 | **API Testing** | Postman (scripts JS, variables de entorno, encadenamiento de requests), Swagger |
-| **Automatización** | Cypress (JavaScript), Selenium WebDriver (Java), NUnit (C#) |
+| **Automatización** | Playwright (TypeScript), Cypress (JavaScript), Selenium WebDriver (Java), NUnit (C#) |
 | **Datos** | SQL (validación de integridad y persistencia en backend) |
 | **Gestión** | Jira, Git, GitHub, Scrum |
 | **Reportes** | Newman HTML Extra Reporter |
