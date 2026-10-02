@@ -18,18 +18,21 @@ Analista QA con más de un año de experiencia práctica en equipos ágiles (Scr
 
 ## 📁 Proyectos
 
-### 🔹 API Testing — Postman Collections
-Colecciones de pruebas sobre APIs REST con:
-- Variables de entorno (dev/staging)
-- Scripts de validación en JavaScript
-- Encadenamiento de requests (autenticación → token → operaciones)
-- Mock servers para independencia de entorno
-- Reporte HTML generado con Newman
+### 🔹 TeleSalud — proceso de QA completo sobre una app de telemedicina
 
-### 🔹 Automatización E2E — Playwright + TypeScript
-Suite de 10 tests sobre SauceDemo con Page Object Model:
-Login (casos válidos y de error), checkout completo, ordenamiento de catálogo
-👉 Ver repositorio
+App web (Spring Boot + React + MySQL) construida como sistema bajo prueba, y todo el trabajo de QA alrededor:
+
+- **Plan de pruebas** (STLC) y **41 casos de prueba** por módulo, todos ejecutados, con resultado real y trazabilidad
+- **Colección Postman** con Newman: **39 requests y 69 aserciones**, verificada desde cero en una base vacía
+- **Validación de datos con SQL**: integridad, constraints y consistencia entre tablas
+- **22 tests automatizados** del backend (JUnit, Mockito, MockMvc)
+- **3 bugs reales** encontrados, diagnosticados y corregidos, cada uno con su test de regresión:
+  - CORS bloqueaba todo el frontend
+  - No se podía volver a reservar un horario después de cancelar el turno
+  - Un JSON con tipos inválidos devolvía un 403 vacío en vez de un 400
+- 🚧 En progreso: automatización E2E con Playwright + TypeScript y pipeline de CI con GitHub Actions
+
+👉 **[Ver repositorio](https://github.com/cynthia-sotelo/telesalud)**
 
 ---
 
@@ -48,7 +51,7 @@ Durante más de un año trabajé en **No Country**, una plataforma de simulacion
 
 - Tecnicatura Superior en Desarrollo de Software — IFTS N° 29 (en curso, +50% aprobado)
 - Metodología de Pruebas de Sistemas — caja negra/blanca, NUnit, Selenium, TDD/BDD
-- Máster en Testing Profesional — UTN FRBA, 2024
+- Curso «Máster en Testing Profesional» — UTN FRBA, 2024
 - Automatización con Cypress — Instituto Web, 2024
 - Selenium + Java — Instituto Web, 2025
 
