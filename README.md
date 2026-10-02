@@ -9,7 +9,7 @@ Analista QA con más de un año de experiencia práctica en equipos ágiles (Scr
 | Área | Herramientas |
 |------|-------------|
 | **API Testing** | Postman (scripts JS, variables de entorno, encadenamiento de requests), Swagger |
-| **Automatización** | Playwright (TypeScript), Cypress (JavaScript), Selenium WebDriver (Java), NUnit (C#) |
+| **Automatización** | Playwright (TypeScript), Selenium WebDriver (Java), NUnit (C#) |
 | **Datos** | SQL (validación de integridad y persistencia en backend) |
 | **Gestión** | Jira, Git, GitHub, Scrum |
 | **Reportes** | Newman HTML Extra Reporter |
@@ -52,7 +52,6 @@ Durante más de un año trabajé en **No Country**, una plataforma de simulacion
 - Tecnicatura Superior en Desarrollo de Software — IFTS N° 29 (2025 - cursando)
 - Metodología de Pruebas de Sistemas — caja negra/blanca, NUnit, Selenium, TDD/BDD
 - Curso «Professional Testing Master» — UTN Buenos Aires, 2024
-- Automatización con Cypress — Instituto Web, 2024
 - Selenium + Java — Instituto Web, 2025
 
 ---
