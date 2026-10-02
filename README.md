@@ -49,9 +49,9 @@ Durante más de un año trabajé en **No Country**, una plataforma de simulacion
 
 ## 🎓 Formación
 
-- Tecnicatura Superior en Desarrollo de Software — IFTS N° 29 (en curso, +50% aprobado)
+- Tecnicatura Superior en Desarrollo de Software — IFTS N° 29 (2025 - cursando)
 - Metodología de Pruebas de Sistemas — caja negra/blanca, NUnit, Selenium, TDD/BDD
-- Curso «Máster en Testing Profesional» — UTN FRBA, 2024
+- Curso «Professional Testing Master» — UTN Buenos Aires, 2024
 - Automatización con Cypress — Instituto Web, 2024
 - Selenium + Java — Instituto Web, 2025
 
