@@ -30,7 +30,8 @@ App web (Spring Boot + React + MySQL) construida como sistema bajo prueba, y tod
   - CORS bloqueaba todo el frontend
   - No se podía volver a reservar un horario después de cancelar el turno
   - Un JSON con tipos inválidos devolvía un 403 vacío en vez de un 400
-- 🚧 En progreso: automatización E2E con Playwright + TypeScript y pipeline de CI con GitHub Actions
+- **Automatización con Playwright + TypeScript**: 9 tests de UI y de API, con Page Object
+- **Pipeline de CI con GitHub Actions**: en cada cambio corre los tests del backend, el build del frontend y una integración completa con MySQL real, Newman y Playwright
 
 👉 **[Ver repositorio](https://github.com/cynthia-sotelo/telesalud)**
 
